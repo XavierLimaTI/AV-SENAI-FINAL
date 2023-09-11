@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Página Inicial - Home */
+.banner {
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.filmes img{
+    width: 600px;
+    height: 892px;
+}
+
+.filme {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.ver-secao {
+    display: block;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Página de Seleção de Poltronas */
+.sala {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px;
+}
+
+#poltronas{
+    display: flex;
+}
+
+.poltrona {
+    width: 200px;
+    height: 70px;
+    border-width: 5px;
+    border-color: black;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.poltronas{
+    display: flex;
+}
+
+.disponivel {
+    background-color: #ddd;
+}
+
+.selecionada {
+    background-color: #ff5733;
+    color: #fff;
+}
+
+#btn-reset{
+    width: 100px;
+    height: 80px;
+
+    
+}
+
+.contador {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Página de Pagamento */
+.resumo-pagamento {
+    text-align: center;
+    margin-top: 20px;
+}

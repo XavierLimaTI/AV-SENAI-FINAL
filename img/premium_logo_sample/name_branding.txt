@@ -1,0 +1,6 @@
+
+            Main text Font: Poiret One
+            Slogan Text Font: Goblin One
+            COLOR RGBA: rgba(255, 255, 255, 1.0)
+            COLOR HEX: #ffffff
+            
